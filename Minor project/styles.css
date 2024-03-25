@@ -1,0 +1,56 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    text-align: center;
+    font-size: 22px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(background.webp);
+    background-size: cover; /* Ensures the background image covers the entire container */
+}
+.dueDateInput[type="datetime-local"]{
+   
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+.task-form {
+    margin-bottom: 20px;
+}
+
+.task-form input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.task-form button {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #4ee2bde0;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.task-item button {
+    background-color: #ff3333;
+    color: #fff;
+    border-radius: none;
+    padding: 5px 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
